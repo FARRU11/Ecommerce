@@ -1,0 +1,41 @@
+.categories-container {
+  text-align: center;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.cat-card {
+  border: 2px solid rgb(33, 158, 188);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  width: 200px;
+}
+.cat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.cat-card img {
+  width: 100%;
+  height: auto;
+}
+
+.cat-card h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(33, 158, 188, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+}
