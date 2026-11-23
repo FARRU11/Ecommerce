@@ -1,5 +1,7 @@
 # ECommerce (React + Firebase + Redux)
 
+**🔗 Live demo:** [https://farru11.github.io/Ecommerce/](https://farru11.github.io/Ecommerce/)
+
 A shopping demo built with React and Vite.
 
 - Browse products and categories (data from [Fake Store API](https://fakestoreapi.com))
