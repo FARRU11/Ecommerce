@@ -23,7 +23,7 @@ function ProductDetails() {
     }
 
     getProductDetails();
-  }, [id]);
+  }, [id, dispatch]);
   const toTitleCase = (text) => {
     if (text) {
       return text
